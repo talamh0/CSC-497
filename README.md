@@ -6,8 +6,8 @@
 #### This Google Drive folder contains the pre-extracted features 
 #### of the Flickr30k dataset in two different formats:
 
-- TSV file  
-- NPY file  
+- tsv file  
+- npy file  
 
 #### Both represent the same features, just stored differently.
 
