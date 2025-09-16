@@ -3,7 +3,7 @@ import base64
 import csv
 
 features_path = 'data/data/f30k_precomp/test_ims.npy'
-features = np.load(features_path)  # شكلها (N, 2048)
+features = np.load(features_path)  
 
 with open('output_features.tsv', 'w', newline='') as tsv_file:
     writer = csv.writer(tsv_file, delimiter='\t')
